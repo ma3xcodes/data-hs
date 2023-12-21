@@ -8,7 +8,7 @@ export default class Default extends Component {
   render() {
     const {contents, slug, heading, hideOptions, title, loading, filters, resetButton, stats, sources, visualizations, vizHeadingLevel} = this.props;
     let {paragraphs} = this.props;
-    console.log(filters);
+    
     const tooltip = contents.descriptions[0].description;
     // Removes first element of paragraphs
 
