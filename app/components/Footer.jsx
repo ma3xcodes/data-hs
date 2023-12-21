@@ -121,7 +121,7 @@ class Footer extends React.Component {
           </Toaster>
         </div>
       </div>
-      <div className="gob-footer">
+      {/*<div className="gob-footer">
         <div className="column-container">
           <div className="column">
             <img className="footer-gob-logo" src={"/icons/homepage/svg/logo-gob-mx.svg"} />
@@ -171,7 +171,7 @@ class Footer extends React.Component {
           </div>
         </div>
       </div>
-      <div className="gob-footer-banner" />
+      <div className="gob-footer-banner" />*/}
     </footer>;
   }
 }

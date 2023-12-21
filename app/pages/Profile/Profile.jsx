@@ -38,8 +38,6 @@ class Profile extends React.Component {
   render() {
     const {profile, t, baseUrl, router} = this.props;
     const {variables} = profile;
-    const {props} = this
-    console.log(props)
 
     let desc = "", slug = "", title = "";
     if (profile && profile.errorCode && profile.errorCode === 404) return <Error />;
