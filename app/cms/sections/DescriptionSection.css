@@ -1,0 +1,40 @@
+@import "helpers/mixins.css";
+
+.cp-custom-description-section {
+  & h3 {
+    color: var(--white);
+  }
+}
+
+.dmx-description-section-side-bar {
+  display: flex;
+  flex-direction: column;
+  margin-top: var(--gutter-lg);
+
+  & .dmx-description-section-level {
+    color: var(--white);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 29px;
+    cursor: pointer;
+    &.active {
+      color: #07A1A1;
+    }
+  }
+}
+
+.cp-custom-description-section-figure {
+  background-color: #080D1B;
+  color: var(--white);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 36px;
+  margin-top: calc(var(--gutter-xl) * 1.5);
+  padding: var(--gutter-lg);
+
+  @mixin max-sm {
+    margin-top: var(--gutter-lg);
+  }
+}

@@ -1,0 +1,18 @@
+.cp-default-without-sources-section-paragraph {
+  & .custom-data-source {
+    color: var(--dark-1);
+    font-family: var(--base-font-stack);
+    font-size: var(--font-xs);
+    font-weight: var(--base-font-weight);
+    letter-spacing: var(--base-letter-spacing);
+  }
+
+  & .custom-data-source-link {
+    color: var(--accent-dark);
+    font-family: var(--base-font-stack);
+    font-size: var(--font-xs);
+    font-weight: var(--base-font-weight);
+    letter-spacing: var(--base-letter-spacing);
+    text-decoration: underline;
+  }
+}

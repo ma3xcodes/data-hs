@@ -1,0 +1,320 @@
+@import "helpers/mixins.css";
+@import "./frags/hero.css";
+
+.lead {
+  background-color: var(--dark-4);
+  color: var(--white);
+  & .lead-descriptions {
+    columns: 320px auto;
+  }
+}
+
+.Options {
+  & .cp-button {
+    border: none;
+    border-radius: 0;
+  }
+}
+
+/* override heading styles for stat values */
+/* TODO: remove after removing heading class from canon stats */
+.cp-stat-value-text.heading {
+  font-weight: var(--stat-value-weight);
+  letter-spacing: -1px;
+  line-height: 1;
+  margin-left: -0.05em; /* fudge that very thin font into place */
+  margin-right: 0;
+}
+
+/* scale down fonts for long stats */
+.cp-stat-value-text.length-lg           { font-size: var(--font-lg); }
+.cp-stat-value-text[class*="length-x"]  { font-size: var(--font-md); }
+.cp-stat-subtitle[class*="length-x"]    { font-size: var(--font-xxs); }
+
+.cp-stat-subtitle {
+  @mixin display;
+  font-weight: var(--bold-weight);
+  margin-top: 0.125em;
+}
+
+.cp-stat-label {
+  /* typography overrides */
+  @mixin font-xxs;
+  line-height: 1.125;
+  /* positioning */
+  margin-top: 0.25em;
+  margin-right: 0; /* override canon */
+
+  & .cp-stat-label-text {
+    font-size: var(--base-font-stack);
+  }
+}
+
+.cp-hero .cp-hero-heading {
+  font-family: var(--base-font-stack-condensed);
+}
+
+.cp-section-heading {
+  font-family: var(--base-font-stack-condensed);
+}
+
+.cp-grouping > .cp-section:last-child {
+  padding-bottom: 6rem;
+}
+
+.cp-main {
+  /* about section overrides */
+  & .cp-grouping:first-child {
+    @mixin text-shadow;
+    background-color: var(--dark-4);
+
+    /* bring about section closer to hero */
+    & .cp-section {
+      padding-top: var(--gutter-xs);
+    }
+
+    & .cp-section-paragraph {
+      @mixin font-xs;
+      @mixin font-smoothing;
+      font-weight: var(--base-font-weight);
+      line-height: 1.5;
+      color: var(--light-2);
+      display: block;
+
+      /* space out adjacent paragraphs */
+      &:not(:last-of-type) {
+        margin-bottom: 1.5em;
+      }
+    }
+    & .Options {
+      display: none;
+    }
+  }
+
+  & .cp-section-heading {
+    line-height: 1.1;
+    margin-bottom: 10px;
+    &[id*="about"] {
+      color: var(--white);
+    }
+  }
+
+  /* value on top */
+  & .cp-stat-group-wrapper > .cp-stat {
+    display: flex;
+    flex-direction: column;
+
+    & .cp-stat-value {
+      order: -1;
+    }
+  }
+
+  & .cp-section-stat {
+    flex: 1 0 50%;
+  }
+
+  & .cp-sub-grouping-section {
+    background-color: #d7dcdf;
+  }
+}
+
+.cp-section-paragraph {
+  line-height: 1.5;
+  color: var(--dark-2);
+
+  /* strip out rich text styles */
+  & [style] {
+    background: inherit !important;
+  }
+}
+
+.cp-grouping-section {
+  & .cp-section-content {
+    margin: 1rem auto;
+    & .cp-stat-group {
+      flex: 2 1 !important;
+    }
+    & .cp-stat-label-text {
+      color: var(--light-3);
+      font-size: var(--font-xxs);
+      max-width: 100px;
+    }
+    & .cp-stat-value-text {
+      color: var(--gmx-yellow-1);
+      font-weight: 300;
+    }
+    & .cp-stat-subtitle {
+      color: var(--light-2);
+      font-size: var(--font-xs);
+    }
+  }
+}
+
+.cp-section {
+  & .bp3-fill {
+    & .multi-list {
+      border: 1px solid var(--gmx-red-1);
+      border-bottom: 0px;
+      padding: 0.6em 0.2em;
+      & .bp3-tag {
+        background-color: var(--gmx-yellow-2);
+        border-radius: 3px;
+        font-size: 0.9em;
+        margin: 0.1em!important;
+        padding: 0.2em 0.4em;
+      }
+    }
+    & .bp3-popover-wrapper {
+      & .bp3-popover-target {
+        width: 100%;
+        & .bp3-icon-plus {
+          background-color: var(--gmx-red-1);
+          background-image: none;
+          border-radius: 0;
+          color: var(--white);
+          font-size: var(--font-xxs);
+          width: 100%;
+          &::before {
+            color: var(--white);
+            font-size: 1em;
+          }
+
+          &:hover {
+            background-color: var(--gmx-yellow-2);
+          }
+
+        }
+      }
+    }
+  }
+}
+
+/* grouping headings */
+.cp-grouping-section-heading {
+  @mixin display;
+  color: var(--white);
+  font-size: 2.25rem;
+  margin-bottom: 0 !important;
+  font-family: var(--base-font-stack-condensed);
+}
+
+.cp-viz-title {
+  font-family: var(--base-font-stack-condensed) !important;
+  font-weight: 600;
+  font-size: var(--font-md);
+  margin: 0 var(--gutter-sm);
+  text-align: center;
+  & .dmx-click2select {
+    color: var(--gmx-red-1) !important;
+    font-size: var(--font-sm) !important;
+  }
+}
+
+.options-button-group {
+  & .cp-button-text {
+    display: none;
+  }
+}
+
+.dmx-disclaimer {
+  color: var(--gmx-yellow-2);
+  font-weight: 700;
+  font-size: var(--font-xs);
+}
+
+.cp-hero-stat {
+  & .cp-stat-subtitle {
+    font-weight: 500;
+    font-size: var(--font-xxs);
+    text-transform: none;
+  }
+  & .cp-stat-label .cp-stat-label-text {
+    text-transform: uppercase;
+  }
+}
+
+/* default section overrides */
+.cp-section-paragraph,
+.cp-tabs-section-paragraph,
+.cp-single-column-section-paragraph,
+.cp-multi-column-section-paragraph {
+  @mixin font-xs;
+  margin-top: 0.5em;
+
+  &:not(:last-of-type) {
+    margin-bottom: 1.125em;
+  }
+}
+
+.cp-hero {
+  min-height: calc(100vh - 300px);
+}
+.cp-hero-inner {
+  padding-top: calc(var(--nav-height) * 2);
+  padding-bottom: 3rem;
+}
+
+.cp-single-column-section-caption .cp-viz-container { margin-top: auto; }
+
+/* inverted section link styles */
+.cp-about-section-inner p > a,
+.cp-about-compare-section-inner p > a {
+  font-weight: var(--bold-weight);
+  color: var(--gmx-yellow-1);
+  text-decoration-color: var(--gmx-yellow-1);
+
+  &:hover, &:focus {
+    color: var(--white);
+    text-decoration-color: currentColor;
+  }
+}
+
+/* style underlined text like italic */
+.cp-section-paragraph u {
+  text-decoration: none;
+  font-style: italic;
+}
+
+.cms-profilesearch .cp-input-label .cp-input {
+  padding: 0.25em 3em 0.375em 2em;
+}
+
+.cp-comparison-remove.bp3-button {
+  background-color: var(--gmx-yellow-2);
+  background-image: none;
+  border-radius: 0;
+  box-shadow: none;
+  color: var(--white);
+  font-family: var(--base-font-stack);
+  font-size: 14px;
+  font-weight: var(--base-font-weight);
+  letter-spacing: var(--base-letter-spacing);
+  line-height: 20px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  &:focus {
+    outline: none;
+  }
+  &:hover {
+    background-color: var(--gmx-red-1);
+  }
+  & .bp3-icon {
+    color: var(--white);
+  }
+}
+
+/* Hide comparisons on economic complexity profile */
+.cp-profile-economic_complexity .cp-comparison-add {
+  display: none;
+}
+
+.cp-subnav {
+  & .cp-subnav-list {
+    & .cp-subnav-group-list {
+      @mixin max-sm {
+        display: none;
+      }
+    }
+  }
+}

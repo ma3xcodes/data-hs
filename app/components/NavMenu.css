@@ -1,0 +1,136 @@
+@import "helpers/mixins.css";
+
+.bp3-dialog {
+  &.nav-menu {
+    /* sizing */
+    width: 20rem;
+    height: 100%;
+    /* positioning */
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 10000000;
+    /* handle overflow on small screens */
+    @mixin vertical-overflow-container;
+    /* theming */
+    background-color: var(--yankees-blue);
+    /* override blueprint */
+    border-radius: 0;
+    margin: 0;
+    padding-bottom: 0;
+    /* transitions */
+    transform: none;
+    transition: transform 0.25s;
+    will-change: transform;
+    /* font */
+    font-family: 'Montserrat';
+    /* border-bottom */
+    border-bottom: 4px solid var(--gmx-yellow-4);
+  }
+}
+
+.bp3-overlay {
+  z-index: 22 !important;
+}
+
+.bp3-overlay-backdrop {
+  background-color: rgba(var(--black-RGB), 0.75);
+}
+
+/* remove focus ring from dialog container, since it's only visible right before it's about to remove itself from the dom */
+.bp3-dialog-container[tabindex]:focus {
+  outline: none;
+}
+
+.nav-menu-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+  padding: var(--gutter-md) var(--gutter-xl);
+  color: var(--white);
+
+  & .close-button {
+    position: absolute;
+    right: var(--gutter-md);
+    top: var(--gutter-md);
+  }
+
+  & .nav-menu-nav {
+    display: flex;
+    flex-direction: column;
+    flex: 1 0 100%;
+  }
+
+  & .nav-menu-logo {
+    display: block;
+    width: 9rem;
+    /* account for padding in logo */
+    position: relative;
+    top: -6px;
+    left: -3px;
+  }
+
+  /* top level list */
+  & .nav-menu-list {
+    @mixin list-reset;
+    margin-top: var(--gutter-sm);
+  }
+
+  & .nav-menu-item:not(.nav-menu-nested-item) {
+    margin-bottom: var(--gutter-xs);
+  }
+
+  /* link base styles */
+  & .nav-menu-link {
+    display: block;
+    font-weight: 600;
+    line-height: 2;
+    color: var(--white);
+
+    &:hover, &:focus {
+      color: var(--accent);
+      border-color: currentColor;
+    }
+  }
+
+  /* nested list */
+  & .nav-menu-nested-list {
+    @mixin list-reset;
+  }
+
+  & .nav-menu-nested-link {
+    font-weight: 400;
+    padding-left: calc(var(--gutter-sm) * 1.2);
+  }
+
+  /* logos */
+  & .nav-menu-footer {
+    padding-top: var(--gutter-md);
+  }
+  & .nav-menu-footer-link {
+    display: block;
+    text-align: left;
+  }
+  & .nav-menu-footer-img {
+    height: 2.25rem;
+  }
+  & .nav-social-media {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    & .nav-social-media-logo {
+      height: var(--gutter-md);
+      margin: calc(var(--gutter-xs)/2) var(--gutter-xs);
+      opacity: 0.7;
+      &:hover {
+        opacity: 1;
+      }
+
+      & path {
+        fill: var(--gmx-yellow-4);
+      }
+    }
+  }
+}

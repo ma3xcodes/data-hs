@@ -1,0 +1,666 @@
+{
+  "AVG 7 Days": "AVG 7 Days",
+  "Accum Cases": "Accum Cases",
+  "Accum Deaths": "Accum Deaths",
+  "Accum Suspect": "Accum Suspect",
+  "Add Location": "Add Location",
+  "Admin": "Admin",
+  "Advanced options": "Advanced options",
+  "Age Range": "Age Range",
+  "Automotive Repair and Maintenance": "Automotive Repair and Maintenance",
+  "Built and Developed by": "Built and Developed by",
+  "Cases": "Cases",
+  "Category": "Category",
+  "Chapter": "Section",
+  "Cities & Places": "Cities & Places",
+  "Classifications": "Classifications",
+  "Companies": "Companies",
+  "Complexity": "Complexity",
+  "Confirmed": "Confirmed",
+  "Contributor": "Contributor",
+  "Copy": "Copy",
+  "Coronavirus": "Coronavirus",
+  "Countries": "Countries",
+  "Country": "Country",
+  "Daily Cases": "Daily Cases",
+  "Daily Deaths": "Daily Deaths",
+  "Data Actualization": "Data updated as of {{month}} {{day}}, {{year}}",
+  "Data Warning": "Preliminary data to date",
+  "Data sources": "Data sources",
+  "Data": "Data",
+  "Dataset": "Dataset",
+  "Date": "Date",
+  "Days": "Days",
+  "Deceased": "Deceased",
+  "Economic Census": "Economic Census",
+  "Economic Unit": "Economic Unit",
+  "Employees": "Employees",
+  "Foreign Trade": "Foreign Trade",
+  "Geographic Level": "Geographic Level",
+  "Group": "Group",
+  "Home": "DataMéxico",
+  "Hospitalized": "Hospitalized",
+  "Industries": "Industries",
+  "Industry Group": "Industry Group",
+  "Industry Level": "Industry Level",
+  "Institution": "Institution",
+  "Last 14 Daily Cases": "Last 14 Daily Cases",
+  "Last 14 Daily Deaths": "Last 14 Daily Deaths",
+  "Level": "Level",
+  "Lineal": "Lineal",
+  "Linear": "Linear",
+  "Loading visualization": "Loading visualization...",
+  "Logarithmic": "Logarithmic",
+  "Logarítmica": "Logarítmica",
+  "Measure": "Measure",
+  "Menu": "Menu",
+  "Metal Ore Mining": "Metal Ore Mining",
+  "Metro Area": "Metro Area",
+  "Municipality": "Municipality",
+  "NAICS Industry": "NAICS Industry",
+  "Nation": "Nation",
+  "National Industry": "National Industry",
+  "Nivel industrial": "Industrial level",
+  "No Filter": "No Filter",
+  "No filter": "No filter",
+  "No results found": "No results found",
+  "Occupation": "Occupation",
+  "Occupations": "Occupations",
+  "Patient Type": "Patient Type",
+  "Per Capita": "Per Capita",
+  "Product": "Product",
+  "Products": "Products",
+  "Profiles": "Profiles",
+  "Rate Accum Cases": "Accumulated cases per 100 thousand inhabitants",
+  "Rate Accum Deaths": "Accumulated deaths per 100 thousand inhabitants",
+  "Rate Daily Cases": "Daily cases per 100 thousand inhabitants",
+  "Rate Daily Deaths": "Daily deaths per 100 thousand inhabitants",
+  "Role": "Role",
+  "Sales Employees": "Sales Employees",
+  "Search location": "Search location...",
+  "Search locations, industries, occupations, products, countries and organizations": "Search locations, industries, occupations, products, countries and organizations",
+  "Search profiles": "Search profiles",
+  "Search": "Search",
+  "Sector": "Sector",
+  "Self Represented City": "Self Represented City",
+  "Sign Up": "Sign Up",
+  "State": "State",
+  "Subgroup": "Subgroup",
+  "Subscribe me": "Subscribe me",
+  "Team": "Team",
+  "Time Scale": "Time Scale",
+  "Time": "Time",
+  "Total Gross Production": "Total Gross Production",
+  "Trade Value": "Trade Value",
+  "Universities": "Institutions",
+  "User": "User",
+  "Username": "Username",
+  "Values aggregated": "Values aggregated",
+  "Workforce": "Workforce",
+  "Y Axis": "Y Axis",
+  "{{total}} more": "{{total}} more",
+  "About": {
+    "Background": "Background",
+    "Contact us": "Contact us",
+    "Glossary": "Glossary",
+    "In the press": "In the press",
+    "Terms of use": "Terms of use",
+    "Title": "About",
+    "Versions": "Versions",
+    "Challenges": "Challenges",
+    "Data": "Data",
+    "Access to data": "Access to data",
+    "IntroAPI1": "To quickly access the data available in DataMéxico, you can use the Viz Builder, a tool that allows you to dynamically explore the data and visualize them in a series of automatically proposed graphs: ",
+    "IntroAPI2": "Viz Builder allows you to view the queried data in its interface and gives you the possibility to download the data for your own analysis in CSV, JSON Tidy and JSON Arrays formats."
+  },
+  "CMS": {
+    "CustomPerspectiveSelector": {
+      "Collapse": "collapse",
+      "Expand": "expand",
+      "Exploration": "Related explorations",
+      "Glossary": "Glossary",
+      "Industry Group": "Branch",
+      "Metro Area": "Metro Area",
+      "Municipality": "Municipality",
+      "NAICS Industry": "Sub-branch",
+      "Nation": "Country",
+      "National Industry": "Activity",
+      "NoResults": "No results found",
+      "Placeholder": "Search",
+      "SeeGlossary": "See Glossary",
+      "State": "State"
+    },
+    "Options": {
+      "Close": "Close",
+      "Copied": "Copied",
+      "Copy": "Copy",
+      "Direct link": "Direct link",
+      "Download": "Download",
+      "Download as CSV": "Download as CSV",
+      "Endpoint": "Endpoint",
+      "Image Format": "Image Format",
+      "Image area": "Image area",
+      "Loading Data": "Loading Data",
+      "Processing image": "Processing image",
+      "Save Image": "Save Image",
+      "Save visualization as": "Save visualization as",
+      "Scroll to section": "Scroll to section",
+      "Share": "Share",
+      "Share on Facebook": "Share on Facebook",
+      "Share on Twitter": "Share on Twitter",
+      "Social": "Social",
+      "Transparent Background": "Transparent Background",
+      "View Data": "View Data",
+      "Visualization options": "Visualization options",
+      "entire section": "entire section",
+      "visualization only": "visualization only"
+    },
+    "Profile": {
+      "Add Comparison": "Add Comparison",
+      "image credits": "image credits",
+      "Photograph by": "Photograph by",
+      "Remove Comparison": "Remove Comparison"
+    },
+    "Search": {
+      "Empty": "Please enter a search term",
+      "Loading": "Loading results...",
+      "No results": "No results matching \"{{query}}\"",
+      "Related Profiles": "Related Profiles",
+      "Search profiles": "Search profiles",
+      "reset": "reset"
+    },
+    "Section": {
+      "Reset visualizations": "Reset visualizations"
+    },
+    "Selector": {
+      "Add a Comparison": "Add a Comparison"
+    },
+    "SourceGroup": {
+      "Data provided by": "Data provided by",
+      "and": "and"
+    },
+    "Table": {
+      "Loading": "Loading...",
+      "Next": "Next",
+      "No rows found": "No rows found",
+      "Page": "Page",
+      "Previous": "Previous",
+      "of": "of",
+      "rows": "rows"
+    }
+  },
+  "Covid Profile": {
+    "Card": {
+      "Age Range": {
+        "Title": "Age range",
+        "Date": "The graphs show the number of cases according to the age of the patients, accumulated up to {{day}} of {{month}} of {{year}}.",
+        "Nation": "Statistics represent data from the <a href='{{lng}}/profile/geo/mex'>country.</a>",
+        "States": "Statistics represent data from the selected states"
+      },
+      "Daily Cases": {
+        "Title": "New daily cases",
+        "Description": "The date to which the cases are assigned corresponds to the day the test was taken.<p className='italic'>The dotted line indicates preliminary data that will be confirmed during the next 7 days.</p>"
+      },
+      "Source": "Source:"
+    },
+    "Overlay": {
+      "Death Cases 1": "All positive cases (RESULT value '1') registered in the database and that have a notified death date (FECHA_DEF other than '99-99-9999') are filtered.",
+      "Death Cases 2": "The time series consider the date of death (FECHA_DEF) as the date on which a new deceased is counted.",
+      "Death Cases 3": "The cases are counted in the place of residence of the deceased (ENTIDAD_RES and MUNICIPIO_RES)",
+      "Death Cases Subtitle": "Deaths correspond to all those positive for SARS-CoV-2 and who have a date of death.",
+      "Death Cases Title": "Deaths:",
+      "Positive Cases 1": "All positive cases (RESULT value '1') registered in the database are filtered.",
+      "Positive Cases 2": "The time series consider the entry date (ENTRY_DATE) as the date on which a new positive case is counted.",
+      "Positive Cases 3": "The cases are counted in the place of residence of the reported patients (ENTIDAD_RES and MUNICIPIO_RES).",
+      "Positive Cases Subtitle": "Positive cases are all those positive for SARS-CoV-2.",
+      "Positive Cases Title": "Positive cases:",
+      "Subtitle": "The data presented for the evolution of COVID-19 in Mexico uses the <a href='https://www.gob.mx/salud/documentos/datos-abiertos-152127'>COVID-19 database </a> more recent.",
+      "Title": "Methodological Note"
+    },
+    "Stats": {
+      "Accum Cases": "Total Confirmed Cases",
+      "Accum Deaths": "Total Confirmed Deaths",
+      "Accum Suspect Hospitalized Subtitle": "About the total infected",
+      "Accum Suspect Hospitalized": "Hospitalized",
+      "Accum Suspect Subtitle": "Up to date",
+      "Accum Suspect": "Suspect Cases",
+      "Daily Cases Subtitle": "Confirmed in the last 7 days",
+      "Daily Cases": "Cases",
+      "Daily Deaths Subtitle": "Confirmed in the last 7 days",
+      "Daily Deaths": "Deaths"
+    }
+  },
+  "ECI Explorer": {
+    "Build ECI / PCI": "Build ECI / PCI",
+    "Description": "Explore different Economic Complexity indicators for Mexico.",
+    "Download ECI dataset": "Download ECI dataset",
+    "Download PCI dataset": "Download PCI dataset",
+    "ECI Subtitle": "The Economic Complexity Index (ECI) measures the productive capacities of a locality (e.g. state or municipality) based on the presence of activities (e.g. employment, industries or exports) in that and other localities. The economic complexity of a locality predicts its income level, economic growth, inequality, and greenhouse gas emissions. The ECI can be estimated using data on exports, employment, patents, etc., so the estimates differ according to the data and the thresholds used. This economically complex explorer allows you to calculate the ECI with different data sources and thresholds.",
+    "ECI Title": "What is the Economic Complexity Index (ECI)?",
+    "Graphic Subtitle": "{{cube}}, {{geo}}, {{level}}",
+    "Graphic Title": "Economic Complexity Index (ECI) ({{time}})",
+    "PCI Subtitle": "The Product Complexity Index (PCI) is a measure of the complexity required to develop an economic activity (e.g. industry, product or occupation). Its value correlates with spatial concentration and income from economic activities. The PCI can be estimated with data on exports, employment, patents, etc. so their values ​​differ according to the data and thresholds used. This explorer allows you to calculate PCI with different thresholds and data sources.",
+    "PCI Title": "What is the Product Complexity Index (PCI)?",
+    "Threshold": "Threshold of <span class='dashed'>{{measure}}</span> according <span class='dashed'>{{level}}</span>",
+    "Title": "ECI Explorer"
+  },
+  "Error": {
+    "Redirection": "<a href='/{{locale}}/explore'>Explore profiles</a> or go back to <a href='/'>homepage</a>.",
+    "Text": "Sorry, this page does not exist."
+  },
+  "Explore": {
+    "Clear Filters": "Clear Filters",
+    "MaxResults": "Query exceeds 100 results, try entering additional filters to refine your search.",
+    "No data available": "Sorry, there are no results for this search. Try other parameters or other sections.",
+    "Search Placeholder": "Search profiles...",
+    "Title": "Explorer"
+  },
+  "Footer": {
+    "Gob": {
+      "Accessibility Statement": "Accessibility statement",
+      "Complaint": "Complaint",
+      "Complaint against public officials": "Complaint against public officials",
+      "Comprehensive privacy notice": "Comprehensive privacy notice",
+      "Contact message": "For questions and information",
+      "Contact us": "Contact us",
+      "Description": "It is the only portal for procedures, information and citizen participation.",
+      "Follow us": "Follow us on:",
+      "INAI": "INAI",
+      "Legal Framework": "Legal framework",
+      "National Transparency Platform": "National transparency platform",
+      "Official Publications": "Official publications",
+      "Open Data Plaftorm": "Open data plaftorm",
+      "Participates": "Participates",
+      "Publications": "Publications",
+      "Read more": "Read more",
+      "Security policy": "Security policy",
+      "Site Map": "Site map",
+      "Simplified privacy notice": "Simplified privacy notice",
+      "Terms and Conditions": "Terms and conditions",
+      "Transparency": "Transparency"
+    },
+    "Mail": "Your e-mail",
+    "MailSubscribe": "Subscribe",
+    "MailTitle": "Receive news about new data sets and improvements in DataMéxico",
+    "SupportMessage": "Supported and developed by",
+    "Titles": {
+      "About": "About DataMexico",
+      "Explorer": "Explore",
+      "ECI Explorer": "ECI Explorer",
+      "Links": "Links",
+      "Vizbuilder": "Vizbuilder",
+      "What is": "What is gob.mx?"
+    }
+  },
+  "Homepage": {
+    "ComplexityText": "Learn about the level of industrial and economic development in Mexico at multiple geographic levels.",
+    "CoronavirusText": "An in-depth look at the spread of COVID-19 in Mexico through data and visualizations updated daily.",
+    "Government": "Government",
+    "Intro": "DataMéxico allows the integration, visualization and analysis of public data to promote innovation, inclusion and diversification of the Mexican economy.",
+    "Procedures": "Procedures",
+    "ProfileText": "Explore Mexico through economic, social and occupational data through customizable interactive visualizations.",
+    "Search Placeholder": "Eg. Ciudad de Mexico, Monterrey",
+    "SearchDisclaimer": "More than 12,000 profiles to discover!",
+    "Tagline": "EXPLORE, VIEW, COMPARE, AND DOWNLOAD MEXICAN DATA",
+    "Title": "What is DataMéxico?",
+    "VizBuilderText": "Generate your own visualizations based on the selection of data of your interest.",
+    "Agrarian development": "Agrarian development",
+    "Agriculture": "Agriculture",
+    "Communications and transportation": "Communications and transportation",
+    "Consultation by procedure category": "Consultation by procedure category",
+    "Culture": "Culture",
+    "Economy": "Economy",
+    "Education": "Education",
+    "Energy": "Energy",
+    "Environment": "Environment",
+    "External relationships": "External relationships",
+    "Financial services": "Financial services",
+    "Governorate": "Governorate",
+    "Health": "Health",
+    "Identity, passport and migration": "Identity, passport and migration",
+    "Institutions of the Government of Mexico": "Institutions of the Government of Mexico",
+    "Marine": "Marine",
+    "National defense": "National defense",
+    "Others": "Others",
+    "Presidency": "Presidency",
+    "Public education": "Public education",
+    "Public function": "Public function",
+    "Security, legality and justice": "Security, legality and justice",
+    "See more": "See more",
+    "Social programs": "Social programs",
+    "Taxes and contributions": "Taxes and contributions",
+    "Territory and housing": "Territory and housing",
+    "Tourism": "Tourism",
+    "Treasury": "Treasury",
+    "Wellness": "Wellness",
+    "Work": "Work"
+  },
+  "Levels": {
+    "Industry Group": "Industry Group",
+    "Industry Group_plural": "Industry Groups",
+    "Metro Area": "Metro Area",
+    "Metro Area_plural": "Metro Areas",
+    "Municipality": "Municipality",
+    "Municipality_plural": "Municipalities",
+    "NAICS Industry": "NAICS Industry",
+    "NAICS Industry_plural": "NAICS Industries",
+    "Occupation": "Occupation",
+    "Occupation_plural": "Occupations",
+    "Country": "Country",
+    "Country_plural": "Countries",
+    "State": "State",
+    "State_plural": "States"
+  },
+  "Loading": {
+    "description": "Loading {{progress}} of {{total}} datasets"
+  },
+  "Profile": {
+    "Country Description": "Explore statistics on the economy, employment, equity, quality of life, education, health and public safety at {{name}}",
+    "Country Title": "{{name}}: Foreign trade, investments, migration and remittances",
+    "Geo Description": "Explore statistics on the economy, employment, equity, quality of life, education, health and public safety at {{name}}",
+    "Geo Title": "{{name}}: Economy, employment, equity, quality of life, education, health and public safety",
+    "Industry Description": "Explore statistics on foreign trade, investment, remittances and migration for {{name}}",
+    "Industry Title": "{{name}}: Wages, production, investment, opportunities and complexity",
+    "Institution Description": "Explore statistics on student status, enrollment and graduation from the institution: {{name}}",
+    "Institution Title": "{{name}}: Student status, enrollment and graduation",
+    "Occupation Description": "Explore statistics on salary, diversity, industries and labor informality for the occupation: {{name}}",
+    "Occupation Title": "{{name}}: Wages, diversity, industries and labor informality",
+    "Product Description": "Explore statistics on trade, international sales and purchases, market and specialization for {{name}}",
+    "Product Title": "{{name}}: Commercial exchange, international purchases and sales, market and specialization",
+    "Search Placeholder": "Search profiles...",
+    "Economic Complexity Title": "Economic Complexity Explorer",
+    "Economic Complexity Description": "Explore the main indicators of economic complexity in Mexico, compare states and products according to the development of comparative advantages in industries and product exports, and learn about the development opportunities of industries and products in Mexico, through Data Hs's economic complexity explorer."
+  },
+  "Share": {
+    "About": "Learn about the history of DataMéxico, the joint effort between the Ministry of Economy (SE) and Datawheel. See the glossary of key terms to understand site analytics.",
+    "Coronavirus Title": "Coronavirus in Mexico (covid-19)",
+    "Coronavirus": "Data and analysis on all available information about the Coronavirus COVID-19 pandemic in Mexico.",
+    "Description": "DataMéxico is a joint effort between the Ministry of Economy (SE) and Datawheel, which allows the integration, visualization and analysis of data to improve public policy decision making focused on promoting innovation, inclusion and diversification of the Mexican economy.",
+    "ECI Explorer": "Discover and explore the economic complexity indices for the different industries and regions of Mexico.",
+    "Explore": "Discover all the profiles with information available in DataMéxico. Profiles on: cities and places, products, industries, occupations, countries and institutions.",
+    "Profile": "profile-desc",
+    "Title": "DataMéxico"
+  },
+  "Vizbuilder": {
+    "DownloadDataAction": "Download",
+    "DownloadDataDict": "Data dictionary",
+    "Share": {
+      "Title": "Vizbuilder",
+      "Description": "DataMéxico Vizbuilder Tool"
+    },
+    "Title": "Vizbuilder",
+    "NavTitle": "Vizbuilder",
+    "TabTitles": {
+      "data": "Data Table",
+      "matrix": "Matrix",
+      "vizbuilder": "Vizbuilder",
+      "api": "API"
+    },
+    "Tour": {
+      "next": "Next",
+      "prev": "Previous",
+      "launch": {
+        "title": "Take a tour",
+        "subtitle": "User Guidance"
+      },
+      "welcome": {
+        "title": "Welcome to the Vizbuilder",
+        "text1": "This tutorial will guide you through the steps on how to use DataMéxico's Vizbuilder.",
+        "text2": "By following this tutorial, you will be able to find your data of interest and generate your own data tables and visualizations."
+      },
+      "dataset": {
+        "title": "Select a data set",
+        "text1": "First, select the category (and possibly subcategory) of data you are interested in.",
+        "text2": "Then, select a data \"cube\" that you are interested in."
+      },
+      "metrics": {
+        "title": "Metrics",
+        "text1": "Select the metrics that you are interested in viewing. A Metric is a column of numeric data that will be displayed in the query results. You must select at least one to make a query."
+      },
+      "columns": {
+        "title": "Columns",
+        "text1": "Next, select the fields you want to display in the columns of your data table. You must select at least one."
+      },
+      "filters": {
+        "title": "Filters",
+        "text1": "You can filter the elements of each column that you want to display in the data table and visualization.",
+        "text2": "If you want all available elements to be displayed, you don't need to apply filters."
+      },
+      "options": {
+        "title": "Query options",
+        "text1": "You can change the default order or include parents levels using the query options panel."
+      },
+      "execute": {
+        "title": "Generate the query",
+        "text1": "Run the query based on your selection of metrics and columns."
+      },
+      "download": {
+        "title": "Download data",
+        "text1": "You are able to download the information in JSON or CSV formats files."
+      },
+      "dataTab": {
+        "title": "Data table",
+        "text1": "You can see the results of your query in a table.",
+        "text2": "Click on the name of each column to modify the order and format of the variables."
+      },
+      "vizbuilderTab": {
+        "title": "Vizbuilder",
+        "text1": "You can see the results of your query in different types of visualizations."
+      },
+      "downloadViz": {
+        "title": "Download your visualizations",
+        "text1": "You can download the various visualizations generated based on your selection (SVG, PNG)."
+      },
+      "matrixTab": {
+        "title": "Matrix (pivot table)",
+        "text1": "You can modify the fields you want to display in the columns and rows of your data table, and choose the format of your numeric variables."
+      },
+      "apiTab": {
+        "title": "API",
+        "text1": "You can access the raw data programmatically using the DataMéxico API.",
+        "text2": "Download developers' guide here."
+      },
+      "last": {
+        "title": "Let's get started!",
+        "text": "You are ready to start exploring DataMéxico data and generate your own tables and visualizations.",
+        "button": "¡Comencemos!"
+      }
+    },
+    "UI": {
+      "action_copy": "Copy",
+      "action_download": "Download",
+      "action_open": "Open",
+      "action_reload": "Reload",
+      "comparison": {
+        "EQ": "Equal to",
+        "GT": "Greater than",
+        "GTE": "Equal or greater than",
+        "LT": "Lower than",
+        "LTE": "Equal or lower than",
+        "NEQ": "Not equal to"
+      },
+      "debug_view": {
+        "httpheaders": "Response headers",
+        "jssource_prefix": "Javascript source for ",
+        "jssource_suffix": "",
+        "url_aggregate": "Aggregate API URL",
+        "url_logiclayer": "LogicLayer API URL"
+      },
+      "direction": {
+        "ASC": "Ascending",
+        "DESC": "Descending"
+      },
+      "formats": {
+        "csv": "CSV",
+        "json": "JSON",
+        "jsonarrays": "JSON Arrays",
+        "jsonrecords": "JSON Records",
+        "xls": "XLS",
+        "undefined": "JSON Arrays"
+      },
+      "loading": {
+        "title": "Loading...",
+        "message_heavyquery": "The current query might contain a maximum of {rows} rows.\nPlease wait...",
+        "message_default": "Please wait..."
+      },
+      "params": {
+        "action_clear": "Restart",
+        "action_clear_description": "Redefine query parameters",
+        "action_execute": "Execute query",
+        "column_title": "Parameters",
+        "count_cuts": "{n} selected",
+        "current_endpoint": "Current endpoint: {label}",
+        "dimmenu_abbrjoint": ": ",
+        "dimmenu_dimension": "{dimension}",
+        "dimmenu_hierarchy": "{abbr}",
+        "dimmenu_level": "{abbr}",
+        "error_fetchmembers_detail": "An error ocurred while loading the member list.",
+        "error_fetchmembers_title": "Error while loading member list",
+        "label_amount": "Amount",
+        "label_boolean_debug": "Debug response",
+        "label_boolean_distinct": "Apply DISTINCT to drilldowns",
+        "label_boolean_exclude_default_members": "Exclude default members",
+        "label_boolean_full_results": "Full results",
+        "label_boolean_nonempty": "Only return non-empty data",
+        "label_boolean_parents": "Include parent levels",
+        "label_boolean_sparse": "Optimize sparse results",
+        "label_cube": "Cube:\n{name}\n{caption}",
+        "label_locale": "Data language: {nativeName}",
+        "label_measure": "Measure",
+        "label_pagination_limit": "Results limit",
+        "label_pagination_offset": "Results offset",
+        "label_source": "Source",
+        "label_sorting_key": "Sort by",
+        "label_sorting_order": "Order",
+        "label_subtopic": "{label}",
+        "label_table": "{label}",
+        "label_timelevel": "Time level",
+        "label_topic": "{label}",
+        "search_placeholder": "Filter (regex enabled)",
+        "summary_growth": "{measure} by {level}",
+        "summary_rca": "{level1} on {measure} by {level2}",
+        "summary_topk": "Top {amount} of {level} by {measure} ({order})",
+        "tag_cuts_plural": "{abbr} ({n} selected)",
+        "tag_cuts": "{abbr} ({first_member})",
+        "tag_drilldowns_abbrjoint": "/",
+        "tag_drilldowns": "{abbr}",
+        "title_area_cuts": "Filters",
+        "title_area_drilldowns": "Columns",
+        "title_area_filters": "Filters ({n})",
+        "title_area_growth": "Growth",
+        "title_area_measures": "Metrics",
+        "title_area_options": "Query options",
+        "title_area_pagination": "Pagination",
+        "title_area_sorting": "Sorting",
+        "title_area_rca": "RCA",
+        "title_area_topk": "Topk",
+        "title_caption": "Caption",
+        "title_downloaddata": "Download",
+        "title_members": "Members",
+        "title_properties": "Properties",
+        "tooltip_area_cuts": "Columns values to filter query by",
+        "tooltip_area_drilldowns": "Columns to group data by",
+        "tooltip_area_filters": "",
+        "tooltip_area_growth": "",
+        "tooltip_area_measures": "Metrics to display in query result",
+        "tooltip_area_options": "",
+        "tooltip_area_rca": "",
+        "tooltip_area_topk": ""
+      },
+      "pivot_view": {
+        "error_internal": "An internal error ocurred in the pivotting tool. We will fix it as soon as possible.",
+        "error_internal_detail": "If you need to contact us about this error, please include this message:\n {error}",
+        "error_missingparams": "The current query doesn't have enough parameters. Two different drilldowns and a measure are needed.",
+        "error_onedimension": "The rows and columns in a pivotted table need 2 different drilldowns.",
+        "label_ddcolumn": "Column drilldown",
+        "label_ddrow": "Row drilldown",
+        "label_formatter": "Numeral format",
+        "label_valmeasure": "Value measure",
+        "loading_details": "This might take a while, please wait...",
+        "loading_title": "Reconfiguring data",
+        "title_download": "Download matrix",
+        "title_params": "Matrix params",
+        "warning_notsummeasure": "The current query contains more than 2 drilldowns, and the aggregation type of the measure is not \"SUM\". The values you're getting might not be meaningful.",
+        "warning_sumdimensions": "There's more than 2 drilldowns in this query. Remaining values will be summed."
+      },
+      "placeholders": {
+        "incomplete": "[Incomplete parameters]",
+        "unselected": "[Unselected]",
+        "none": "[None]"
+      },
+      "previewMode": {
+        "description_full": "Displaying all query results.",
+        "description_preview": "Query results will be limited to 50 records.",
+        "title_preview": "Preview"
+      },
+      "queries": {
+        "action_create": "New query",
+        "action_parse": "Query from URL",
+        "error_not_query": "Please construct a valid query",
+        "error_no_drilldowns": "You must add at least one drilldown.",
+        "error_no_measures": "You must add at least one measure.",
+        "column_title": "Queries",
+        "unset_parameters": "No parameters set"
+      },
+      "results": {
+        "error_execquery_detail": "There was a problem with the last query:",
+        "error_disconnected_title": "You are not connected to the internet.",
+        "error_serveroffline_title": "There's a problem contacting with the server",
+        "error_serveroffline_detail": "Check the availability of the URL ",
+        "error_emptyresult_title": "Empty dataset",
+        "error_emptyresult_detail": "The query didn't return elements. Try again with different parameters.",
+        "count_rows": "{n} row",
+        "count_rows_plural": "{n} rows"
+      },
+      "selectlevel_placeholder": "Level...",
+      "selectmeasure_placeholder": "Measure...",
+      "selecttimelevel_placeholder": "Time level...",
+      "table_view": {
+        "numeral_format": "Numeral format",
+        "sort_asc": "Sort Asc",
+        "sort_desc": "Sort Desc"
+      },
+      "transfer_input": {
+        "count_hidden": "{n} item hidden",
+        "count_hidden_plural": "{n} items hidden",
+        "search_placeholder": "Filter (regex enabled)",
+        "select_all": "Select all",
+        "unselect_all": "Unselect all"
+      }
+    },
+    "VizbuilderView": {
+      "action_close": "Close",
+      "action_download": "Download {{format}}",
+      "action_enlarge": "Enlarge",
+      "action_fileissue": "File an issue",
+      "action_retry": "Retry",
+      "aggregators": {
+        "avg": "Average",
+        "max": "Max",
+        "min": "Min"
+      },
+      "chart_labels": {
+        "ci": "Confidence Interval",
+        "moe": "Margin of Error",
+        "source": "Source",
+        "collection": "Collection"
+      },
+      "error": {
+        "detail": "",
+        "message": "Error details: \"{{message}}\".",
+        "title": "Title: "
+      },
+      "nonidealstate_msg": "No results",
+      "sentence_connectors": {
+        "and": "and"
+      },
+      "title": {
+        "of_selected_cut_members": "of Selected {{members}} Members",
+        "top_drilldowns": "for Top {{drilldowns}}",
+        "by_drilldowns": "by {{drilldowns}}",
+        "over_time": "Over Time",
+        "measure_and_modifier": "{{modifier}} {{measure}}"
+      }
+    }
+  }
+}

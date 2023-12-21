@@ -1,0 +1,116 @@
+@import "helpers/mixins.css";
+
+.reactour__helper.tour-card {
+  color: black;
+  max-width: none;
+  padding: 0;
+  font-family: var(--heading-font-stack) !important;
+
+  width: 500px !important;
+
+  & .tour-item {
+
+    & div.tour-text {
+      padding: var(--gutter-md) var(--gutter-md) var(--gutter-xs) var(--gutter-md);
+
+      & h3 {
+        margin-top: 0;
+        margin-bottom: var(--gutter-sm);
+        font-size: var(--font-md);
+      }
+
+      & p {
+        font-size: var(--font-xs);
+        color: var(--light-gray);
+      }
+    }
+
+    & div.tour-img {
+      padding: var(--gutter-md);
+      background-color: var(--cream);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+
+      & img {
+        max-width: 100%;
+      }
+    }
+
+  }
+
+  & div[data-tour-elem="controls"] {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-family: var(--heading-font-stack) !important;
+    width: 100%;
+    margin: 0;
+
+    & button {
+      margin: 0;
+      display: flex;
+      padding: var(--gutter-sm);
+      width: 50%;
+      height: 100%;
+      align-items: center;
+      justify-content: center;
+
+      & span {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: bold;
+        letter-spacing: 1px;
+
+        & img {}
+      }
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+
+    & nav[data-tour-elem="navigation"] {
+      order: 1;
+      width: 100%;
+      display: flex;
+      justify-items: center;
+      align-items: center;
+      margin-bottom: var(--gutter-sm);
+
+      & button[data-tour-elem="dot"] {
+        margin: var(--gutter-xs);
+        height: 10px;
+        width: 10px;
+        padding: 0;
+        background-color: var(--cream);
+
+        &.reactour__dot--is-active {
+          background-color: var(--gmx-red-1);
+        }
+      }
+    }
+
+    & button[data-tour-elem="left-arrow"] {
+      order: 2;
+      background-color: var(--cream);
+      color: var(--light-gray);
+
+      & img {
+        margin-right: var(--gutter-xs);
+      }
+    }
+
+    & button[data-tour-elem="right-arrow"] {
+      order: 3;
+      background-color: var(--gmx-red-1);
+      color: var(--white);
+
+      & img {
+        margin-left: var(--gutter-xs);
+      }
+    }
+  }
+}
