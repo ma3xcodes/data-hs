@@ -5,10 +5,10 @@
 module.exports = {
   db: [
     {
-      host: "monorail.proxy.rlwy.net",
-      name: "railway",
-      user: "postgres",
-      pass: "AGEBGB4-DB-3Dc4FCBBCEd2gG-ecgdE3",
+      host: process.env.PGHOST,
+      name: process.env.PGDATABASE,
+      user: process.env.PGUSER,
+      pass: process.env.PGPASSWORD,
       tables: [
         require("@datawheel/canon-core/models"),
         require("@datawheel/canon-cms/models")
