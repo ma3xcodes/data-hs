@@ -2,7 +2,7 @@ import React from "react";
 import HelmetWrapper from "../HelmetWrapper";
 import PropTypes from "prop-types";
 import libs from "@datawheel/canon-cms/src/utils/libs";
-import {Profile as CMSProfile} from "@datawheel/canon-cms";
+import CMSProfile from "../../components/Profile";
 import {connect} from "react-redux";
 import {fetchData} from "@datawheel/canon-core";
 import {withNamespaces} from "react-i18next";
@@ -20,8 +20,8 @@ class Profile extends React.Component {
 
   getChildContext() {
     const {formatters, locale, profile, router} = this.props;
+    
     const {variables} = profile;
-
     return {
       formatters: formatters.reduce((acc, d) => {
         const f = Function("n", "libs", "formatters", d.logic);
@@ -37,7 +37,13 @@ class Profile extends React.Component {
 
   render() {
     const {profile, t, baseUrl, router} = this.props;
+    console.log('profile', profile);
+    console.log('t', t);
+    console.log('baseUrl ', baseUrl );
+    console.log('router', router);
+
     const {variables} = profile;
+    const {props} = this
 
     let desc = "", slug = "", title = "";
     if (profile && profile.errorCode && profile.errorCode === 404) return <Error />;
