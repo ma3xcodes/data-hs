@@ -5,10 +5,10 @@
 module.exports = {
   db: [
     {
-      host: "localhost",
-      name: "datamexico",
+      host: "monorail.proxy.rlwy.net",
+      name: "railway",
       user: "postgres",
-      pass: "postgres",
+      pass: "AGEBGB4-DB-3Dc4FCBBCEd2gG-ecgdE3",
       tables: [
         require("@datawheel/canon-core/models"),
         require("@datawheel/canon-cms/models")

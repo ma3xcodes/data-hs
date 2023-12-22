@@ -10,8 +10,8 @@
     "locales": "canon-locales",
     "release": "canon-release",
     "setup": "canon-setup",
-    "start": "node index.js",
-    "pm2": "canon-build && pm2 stop all && pm2 delete all && pm2 start echosystem.config.js --update-env"
+    "start": "npm run build && node index.js",
+    "pm2": "canon-build && pm2 stop all && pm2 delete all && pm2 restart ecosystem.config.js --update-env"
   },
   "repository": {
     "type": "git",
