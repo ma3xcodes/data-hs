@@ -5,10 +5,10 @@
 module.exports = {
   db: [
     {
-      host: PGHOST,
-      name: PGDATABASE,
-      user: PGUSER,
-      pass: PGPASSWORD,
+      host: process.env.PGHOST,
+      name: process.env.POSTGRES_DB,
+      user: process.env.POSTGRES_USER,
+      pass: process.env.POSTGRES_PASSWORD,
       tables: [
         require("@datawheel/canon-core/models"),
         require("@datawheel/canon-cms/models")
