@@ -49,7 +49,7 @@ const Nav = props => {
     }
 
     if (query.length > 1) {
-      return axios.get("https://www.economia.gob.mx/datamexico/api/api/search", {
+      return axios.get("https://www.economia.gob.mx/datamexico/api/search", {
         cancelToken: new axios.CancelToken(canceler => {
           // An executor function receives a cancel function as a parameter
           cancelContainer.current = canceler;
