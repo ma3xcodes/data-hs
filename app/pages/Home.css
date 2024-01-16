@@ -61,6 +61,7 @@
         margin-right: var(--gutter-sm);
       }
       & .hero-info-logo-img {
+        display: none;
         height: calc(var(--font-md) * 3.5);
         transition: 0.15s ease-out;
       }

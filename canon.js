@@ -8,7 +8,7 @@ module.exports = {
   db: [
     {
       host: "localhost",
-      name: "datamexico",
+      name: "datahs",
       user: "postgres",
       pass: "postgres",
       port: 5432,
