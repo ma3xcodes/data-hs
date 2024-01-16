@@ -245,7 +245,7 @@ class ProfileRenderer extends Component {
       comparisonSearch: false
     });
 
-    axios.get(`https://www.economia.gob.mx/datamexico/api/api/profile?slug=${slug}&id=${memberSlug}&locale=${locale}`)
+    axios.get(`https://www.economia.gob.mx/datamexico/api/profile?slug=${slug}&id=${memberSlug}&locale=${locale}`)
       .then(resp => {
 
         let comparison = resp.data;

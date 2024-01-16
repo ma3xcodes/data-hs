@@ -6,6 +6,8 @@ import ProfileRenderer from "./ProfileRenderer";
 import {NonIdealState} from "@blueprintjs/core";
 import "@datawheel/canon-cms/src/components/Profile.css";
 
+const urlApi = "https://f79e-104-28-204-192.ngrok-free.app/"
+
 class Profile extends Component {
   getChildContext() {
     const {router, searchProps, location} = this.props;
@@ -52,8 +54,8 @@ Profile.defaultProps = {
 };
 
 Profile.need = [
-  fetchData("profile", "/api/profile/?slug=<slug>&id=<id>&slug2=<slug2>&id2=<id2>&slug3=<slug3>&id3=<id3>&locale=<i18n.locale>"),
-  fetchData("formatters", "/api/formatters")
+  fetchData("profile", urlApi+"/api/profile/?slug=<slug>&id=<id>&slug2=<slug2>&id2=<id2>&slug3=<slug3>&id3=<id3>&locale=<i18n.locale>"),
+  fetchData("formatters", urlApi+"/api/formatters")
 ];
 
 Profile.childContextTypes = {
