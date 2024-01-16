@@ -49,7 +49,7 @@ const Nav = props => {
     }
 
     if (query.length > 1) {
-      return axios.get("/api/search", {
+      return axios.get("https://www.economia.gob.mx/datamexico/api/api/search", {
         cancelToken: new axios.CancelToken(canceler => {
           // An executor function receives a cancel function as a parameter
           cancelContainer.current = canceler;
@@ -197,7 +197,7 @@ const Nav = props => {
           <SVG src="/icons/homepage/svg/burger.svg" width={35} />
         </button>
         <a href="/">
-          <img className="nav-logo" src={"/icons/homepage/svg/logo-dmx-vertical.svg"} />
+          <img className="nav-logo" src={"/icons/homepage/svg/logo-dmx-vertical1.svg"} />
         </a>
       </div>
       <div className={classnames("nav-center", {"active-searchbar": isSearchOpen})}>

@@ -46,7 +46,7 @@ class Home extends Component {
         <div className="home-hero" style={{backgroundImage: `url(/images/backgroundmx-${backgroundID}.jpg)`, paddingTop: 0}}>
           <div className="home-hero-info">
             <h1 className="hero-info-logo">
-              <img src="/icons/homepage/svg/logo-dmx-vertical.svg" alt="DataMexico" />
+              <img src="/icons/homepage/svg/logo-dmx-vertical1.svg" alt="DataMexico" />
             </h1>
             <p className="hero-info-tagline u-font-md">
               {t("Homepage.Tagline")}
