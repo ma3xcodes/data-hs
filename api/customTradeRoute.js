@@ -1,7 +1,9 @@
 const axios = require("axios");
 
 let {CANON_CMS_CUBES} = process.env;
-if (CANON_CMS_CUBES?.substr(-1) === "/") CANON_CMS_CUBES = CANON_CMS_CUBES.substr(0, CANON_CMS_CUBES.length - 1);
+if (CANON_CMS_CUBES) {
+  if (CANON_CMS_CUBES.substr(-1) === "/") CANON_CMS_CUBES = CANON_CMS_CUBES.substr(0, CANON_CMS_CUBES.length - 1);
+}
 const BASE_API = `${CANON_CMS_CUBES  }/data`;
 
 

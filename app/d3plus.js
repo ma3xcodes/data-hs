@@ -155,8 +155,8 @@ export default {
     shapeConfig: {
       fill(d) {
         const item = this._parent._groupBy[0](d);
-        let itemId = Object.entries(d).find(h => h[1] === item)?.[0];
-        if (itemId?.includes(" ID")) itemId = itemId.replace(" ID", "");
+        let itemId = Object.entries(d).find(h => h[1] === item)[0];
+        if (itemId.includes(" ID")) itemId = itemId.replace(" ID", "");
         return findColorV2(itemId, d);
       },
       backgroundImage(d, i) {
@@ -290,8 +290,8 @@ export default {
       stroke(d) {
         if (this && this._groupBy) {
           const item = this._groupBy[0](d);
-          let itemId = Object.entries(d).find(h => h[1] === item)?.[0];
-          if (itemId?.includes(" ID")) itemId = itemId.replace(" ID", "");
+          let itemId = Object.entries(d).find(h => h[1] === item)[0];
+          if (itemId.includes(" ID")) itemId = itemId.replace(" ID", "");
           return findColorV2(itemId, d);
         }
         return undefined;

@@ -30,7 +30,7 @@ const Vizbuilder = props => {
 
   const {base, lng: locale, route, router, t} = props;
 
-  const [isTourOpen, _] = useState(router?.location.pathname.endsWith(TUTORIAL_PATH));
+  const [isTourOpen, _] = useState(router ?router.location.pathname.endsWith(TUTORIAL_PATH):unll);
 
   /*
     When tour is close, redirect to a vizbuilder page with the selected query,
@@ -39,7 +39,7 @@ const Vizbuilder = props => {
     if (window && window.location.search !== "") {
       router.push(`/${locale}/vizbuilder${window.location.search}`);
     }
-    window?.location.reload()
+    if(window)window.location.reload();
   }
 
   /*
@@ -52,7 +52,7 @@ const Vizbuilder = props => {
     } else {
       router.push(`/${locale}/vizbuilder/tutorial?${TUTORIAL_QUERY_PATH}`);
     }
-    window?.location.reload()
+    if(window) window.location.reload()
   }
 
   const share = {

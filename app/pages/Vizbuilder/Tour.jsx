@@ -46,7 +46,8 @@ const LastStep = ({t}) => <div className="tour-item tour-last">
 </div>;
 
 const clickElement = selector => {
-  document.querySelector(selector)?.click();
+  var elClick = document.querySelector(selector);
+  if(elClick) elClick.click();
 };
 
 const Tour = props => {

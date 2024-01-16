@@ -4,7 +4,7 @@ const yn = require("yn");
 const verbose = yn(process.env.CANON_CMS_LOGGING);
 
 const BASE_API = `${process.env.CANON_CMS_CUBES}data.jsonrecords`;
-console.log(process.env);
+//console.log(process.env);
 const {CANON_LANGUAGES} = process.env;
 
 /**

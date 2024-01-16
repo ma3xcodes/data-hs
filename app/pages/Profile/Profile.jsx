@@ -37,10 +37,10 @@ class Profile extends React.Component {
 
   render() {
     const {profile, t, baseUrl, router} = this.props;
-    console.log('profile', profile);
-    console.log('t', t);
-    console.log('baseUrl ', baseUrl );
-    console.log('router', router);
+    //console.log('profile', profile);
+    //console.log('t', t);
+    //console.log('baseUrl ', baseUrl );
+    //console.log('router', router);
 
     const {variables} = profile;
     const {props} = this

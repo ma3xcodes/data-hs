@@ -1,8 +1,10 @@
 const axios = require("axios");
-const locale = "es";
+const locale = "en";
 
 let {CANON_CMS_CUBES} = process.env;
-if (CANON_CMS_CUBES?.substr(-1) === "/") CANON_CMS_CUBES = CANON_CMS_CUBES.substr(0, CANON_CMS_CUBES.length - 1);
+if(CANON_CMS_CUBES) {
+  if (CANON_CMS_CUBES.substr(-1) === "/") CANON_CMS_CUBES = CANON_CMS_CUBES.substr(0, CANON_CMS_CUBES.length - 1);
+}
 
 const BASE_URL = "https://www.economia.gob.mx/datamexico/api/covid/";
 
